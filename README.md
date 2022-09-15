@@ -9,5 +9,4 @@ Backend Code Explanation :
 2.	  In the model of Booklist there is foreignkey is given and its directly relation to individual and get data from database.
 3.	  For authentication I used JWT concept for basic authentication for the login it is in backends.py 
       I created one JWTAuthentication class that contains all the JWT login also there is two exceptions is for invalid login and expired token login
-NOTE :     Also for database I used MySQL as per requirements also already user exist condition added also all endpoints working properly in Postman 
-           but I did not created front end so please review it.  
+NOTE :     Additionally, I used MySQL for the database in accordance with the requirement. Furthemore, I included the user-exists condition and all endpoints         functioned successfully in Postman, but I did not develop the front end, so kindly check it.
